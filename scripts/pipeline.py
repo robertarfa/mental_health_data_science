@@ -4,8 +4,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 # Carregar dados
-data = pd.read_csv('data/raw/dataset.csv')
-
+path = "../data/raw/608DE39_ALL_LATEST.csv"
+data = pd.read_csv(path)
+data.head()
 # Pré-processamento
 data = data.dropna()
 X = data.drop('target', axis=1)

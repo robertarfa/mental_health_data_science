@@ -1,1 +1,0 @@
-# https://github.com/NDAR/nda-data-access-example-code/blob/main/example/PYTHON.md
